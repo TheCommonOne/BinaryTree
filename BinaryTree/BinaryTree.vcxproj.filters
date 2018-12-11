@@ -13,5 +13,69 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\node">
+      <UniqueIdentifier>{27bd48a0-877c-4094-9d94-9942fcac23c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\dataStructure">
+      <UniqueIdentifier>{3fe48908-4d2a-4819-8e34-1f113764515b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\heap">
+      <UniqueIdentifier>{f7e21e70-7961-4d4d-ba3a-6a75e54547e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\tree">
+      <UniqueIdentifier>{087000e8-3574-4cf4-add0-87bbab105444}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="listNode.h">
+      <Filter>头文件\node</Filter>
+    </ClInclude>
+    <ClInclude Include="binaryTreeNode.h">
+      <Filter>头文件\node</Filter>
+    </ClInclude>
+    <ClInclude Include="listQueue.h">
+      <Filter>头文件\dataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="myList.h">
+      <Filter>头文件\dataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="maxHeap.h">
+      <Filter>头文件\heap</Filter>
+    </ClInclude>
+    <ClInclude Include="minHeap.h">
+      <Filter>头文件\heap</Filter>
+    </ClInclude>
+    <ClInclude Include="binarytree.h">
+      <Filter>头文件\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="binarySearchTree.h">
+      <Filter>头文件\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="threadBinaryTree.h">
+      <Filter>头文件\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="threadBinaryTreeNode.h">
+      <Filter>头文件\node</Filter>
+    </ClInclude>
+    <ClInclude Include="AVLTreeNode.h">
+      <Filter>头文件\node</Filter>
+    </ClInclude>
+    <ClInclude Include="AVLTree.h">
+      <Filter>头文件\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="HuffmanTree.h">
+      <Filter>头文件\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="HuffmanTreeNode.h">
+      <Filter>头文件\node</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="listStack.h">
+      <Filter>头文件\dataStructure</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -115,6 +115,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AVLTree.h" />
+    <ClInclude Include="AVLTreeNode.h" />
+    <ClInclude Include="binarySearchTree.h" />
+    <ClInclude Include="binarytree.h" />
+    <ClInclude Include="binaryTreeNode.h" />
+    <ClInclude Include="HuffmanTree.h" />
+    <ClInclude Include="HuffmanTreeNode.h" />
+    <ClInclude Include="listNode.h" />
+    <ClInclude Include="listQueue.h" />
+    <ClInclude Include="maxHeap.h" />
+    <ClInclude Include="minHeap.h" />
+    <ClInclude Include="myList.h" />
+    <ClInclude Include="threadBinaryTree.h" />
+    <ClInclude Include="threadBinaryTreeNode.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="listStack.h" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
